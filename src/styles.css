@@ -133,6 +133,7 @@ body, h1, h2, p {
     margin: 10px;
     width: 70%;
     margin: 0 auto;
+    margin-bottom: 20px;
   }
   
   .ProjectBox img {
@@ -146,3 +147,100 @@ body, h1, h2, p {
   .ProjectBox p {
     margin-top: 10px;
   }
+
+
+
+  .SkillsInnerContainer {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.SkillsIntro {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.SkillsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.Skill {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Skill i {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.Skill h3 {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+.Skill p {
+  color: #666;
+}
+
+
+.SkillsInnerContainer {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.SkillsSubtitle {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.SkillsColumns {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.SkillsColumn {
+  flex: 1;
+}
+
+.SkillsList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Skill {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.Skill i {
+  font-size: 2rem;
+  color: #007bff;
+}
+
+.Skill h3 {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+
+.Skill p {
+  color: #666;
+}

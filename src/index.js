@@ -64,16 +64,54 @@ const App = () => {
         </div>
       </section>
       <section className="ProjectsContainer" id="skills">
-        <h2 className="SectionTitle">Skills</h2>
-        <div className="ProjectsInnerContainer">
-         <p>These are my skills:</p>
-         <ul>
-          <li>Skill 1</li>
-          <li>Skill 2</li>
-          {/* Add more skills as needed */}
-        </ul>
+  <h2 className="SectionTitle">Skills</h2>
+  <div className="SkillsInnerContainer">
+    <h3 className="SkillsSubtitle">Master of Code, Wielder of Knowledge</h3>
+    <div className="SkillsColumns">
+      <div className="SkillsColumn">
+        <h4>Proficient</h4>
+        <div className="SkillsGrid">
+          <div className="Skill">
+            <i className="fas fa-code"></i>
+            <h3>Python</h3>
+            <p>Fluent in the language of snakes</p>
+          </div>
+          <div className="Skill">
+            <i className="fab fa-react"></i>
+            <h3>React</h3>
+            <p>Building interactive web experiences</p>
+          </div>
+          <div className="Skill">
+            <i className="fab fa-js"></i>
+            <h3>JavaScript</h3>
+            <p>Scripting the web like a magician</p>
+          </div>
         </div>
-      </section>
+      </div>
+      <div className="SkillsColumn">
+        <h4>Familiar</h4>
+        <div className="SkillsGrid">
+          <div className="Skill">
+            <i className="fab fa-html5"></i>
+            <h3>HTML</h3>
+            <p>Building the foundation of the web</p>
+          </div>
+          <div className="Skill">
+            <i className="fab fa-java"></i>
+            <h3>Java</h3>
+            <p>Bringing the coffee to your code</p>
+          </div>
+          <div className="Skill">
+            <i className="fab fa-css3-alt"></i>
+            <h3>CSS</h3>
+            <p>Designing stunning web styles</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+  
       <footer className="Footer" id="contact">
         <div className="ContactInfo">
           <h2 className="SectionTitle">Contact</h2>
