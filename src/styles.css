@@ -13,7 +13,7 @@ body, h1, h2, p {
   }
   
   .App {
-    max-width: 800px;
+    max-width: 1800px;
     margin: 0 auto;
     padding: 20px;
   }
@@ -26,11 +26,15 @@ body, h1, h2, p {
     backdrop-filter: blur(10px);
     border-radius: 10px;
     margin-bottom: 20px;
+    width: 40%;
+    margin: 0 auto;
   }
-  
+
   
   .TitleBox {
-    padding: 20px;
+    padding: 15px;
+    width: 100%;
+    margin: 0 auto;
   }
   
   .Name {
@@ -111,7 +115,7 @@ body, h1, h2, p {
 
   .ProjectsInnerContainer {
     display: grid;
-    grid-template-columns: repeat(2, fr);
+   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* Adjust the minmax values */
     grid-gap: 20px;
   }
 

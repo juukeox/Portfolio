@@ -16,6 +16,11 @@ const App = () => {
       imageSrc: "/scraping.png",
       description: "Description of Project 2...",
     },
+    {
+      title: "Fantasy Footy Pt.3",
+      imageSrc: "/dashboard.png",
+      description: "Description of Project 3...",
+    },
     // Add more projects as needed
   ];
   return (
@@ -46,8 +51,8 @@ const App = () => {
         </ul>
       </nav>
       <section className="ProjectsContainer" id="projects">
+        <h2 className="SectionTitle">Projects</h2>
         <div className="ProjectsInnerContainer">    
-        <h2 className="SectionTitle">Featured Projects</h2>
           {projects.map((project, index) => (
             <ProjectBox
               key={index}
