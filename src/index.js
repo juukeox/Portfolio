@@ -10,22 +10,25 @@ const App = () => {
       title: "Fantasy Football Front End",
       imageSrc: "/homepage.png",
       description: "Initiate the scraping, choose your football preferences, and see your final results all in this slick front end.",
-    
+      link: "https://github.com/juukeox/FantasyFooty",
     },
     {
       title: "Fantasy Football Back End",
       imageSrc: "/scraping.png",
       description: "The flask app takes on sophisticated scraping, and processes your inputs via a complex algorithm to generate normalised scores for recommended players.",
+      link: "https://github.com/juukeox/FantasyFooty",
     },
     {
       title: "Sudoku Game",
       imageSrc: "/sudoku.png",
-      description: "Load up a new board each time you open and see how fast you can beat the board!",
+      description: "Load up a new board each time you open and see how fast you can win!",
+      link: "https://github.com/juukeox/Sudoku",
     },
     {
       title: "Hangman Game",
       imageSrc: "/hangman.png",
       description: "Choose your difficulty and take on the dictionary before you run out of lives!",
+      link: "https://github.com/juukeox/Hangman-game",
     },
   ];
   return (
@@ -64,6 +67,7 @@ const App = () => {
               title={project.title}
               imageSrc={project.imageSrc}
               description={project.description}
+              link={project.link}
             />
           ))} 
         </div>
