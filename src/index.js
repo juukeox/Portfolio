@@ -63,9 +63,16 @@ const App = () => {
           ))} 
         </div>
       </section>
-      <section className="Skills" id="skills">
+      <section className="ProjectsContainer" id="skills">
         <h2 className="SectionTitle">Skills</h2>
-        {/* Add your skills section here */}
+        <div className="ProjectsInnerContainer">
+         <p>These are my skills:</p>
+         <ul>
+          <li>Skill 1</li>
+          <li>Skill 2</li>
+          {/* Add more skills as needed */}
+        </ul>
+        </div>
       </section>
       <footer className="Footer" id="contact">
         <div className="ContactInfo">
