@@ -1,12 +1,12 @@
 import React from "react";
 
-const ProjectBox = ({ title, imageSrc, description }) => {
+const ProjectBox = ({ title, imageSrc, description, link }) => {
   return (
-    <div className="ProjectBox">
+    <a href={link} className="ProjectBox">
       <h3>{title}</h3>
       <img src={imageSrc} alt={title} />
       <p>{description}</p>
-    </div>
+    </a>
   );
 };
 

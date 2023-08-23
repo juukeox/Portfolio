@@ -10,6 +10,7 @@ const App = () => {
       title: "Fantasy Football Front End",
       imageSrc: "/homepage.png",
       description: "Initiate the scraping, choose your football preferences, and see your final results all in this slick front end.",
+    
     },
     {
       title: "Fantasy Football Back End",
@@ -26,7 +27,6 @@ const App = () => {
       imageSrc: "/hangman.png",
       description: "Choose your difficulty and take on the dictionary before you run out of lives!",
     },
-    // Add more projects as needed
   ];
   return (
     <div className="App">
@@ -78,17 +78,22 @@ const App = () => {
           <div className="Skill">
             <i className="fas fa-code"></i>
             <h3>Python</h3>
-            <p>Fluent in the language of snakes</p>
+            <p>Creating efficient and maintainable solutions</p>
           </div>
           <div className="Skill">
-            <i className="fab fa-react"></i>
-            <h3>React</h3>
-            <p>Building interactive web experiences</p>
+            <i className="fab fa-html5"></i>
+            <h3>HTML</h3>
+            <p>Crafting structured and semantic web content</p>
           </div>
           <div className="Skill">
             <i className="fab fa-js"></i>
             <h3>JavaScript</h3>
-            <p>Scripting the web like a magician</p>
+            <p>Designing dynamic and responsive web applications</p>
+          </div>
+          <div className="Skill">
+            <i className="fab fa-python"></i>
+            <h3>Flask</h3>
+            <p>Building web apps with Python for powerful backends</p>
           </div>
         </div>
       </div>
@@ -96,19 +101,24 @@ const App = () => {
         <h4>Familiar</h4>
         <div className="FamiliarGrid">
           <div className="Skill1">
-            <i className="fab fa-html5"></i>
-            <h3>HTML</h3>
-            <p>Building the foundation of the web</p>
-          </div>
-          <div className="Skill1">
             <i className="fab fa-java"></i>
             <h3>Java</h3>
-            <p>Bringing the coffee to your code</p>
+            <p>Creating robust and platform-independent applications</p>
           </div>
           <div className="Skill1">
             <i className="fab fa-css3-alt"></i>
             <h3>CSS</h3>
-            <p>Designing stunning web styles</p>
+            <p>Styling websites for appealing user experiences</p>
+          </div>
+          <div className="Skill1">
+            <i className="fab fa-react"></i>
+            <h3>React</h3>
+            <p>Developing interactive user interfaces with ease</p>
+          </div>
+          <div className="Skill1">
+            <i className="fab fa-docker"></i>
+            <h3>Docker</h3>
+            <p>Containerizing applications for seamless deployment</p>
           </div>
         </div>
       </div>
