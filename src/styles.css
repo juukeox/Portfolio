@@ -73,7 +73,6 @@ body, h1, h2, p {
   /* Section Titles */
   .SectionTitle {
     font-size: 1.8rem;
-    margin-bottom: 10px;
     color: #333;
   }
   .Footer {
@@ -95,4 +94,46 @@ body, h1, h2, p {
   
   .SocialLinks {
     /* Style  social media links or other links */
+  }
+
+  .ProjectsContainer {
+    max-width: 2500px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .ProjectsInnerContainer {
+    display: grid;
+    grid-template-columns: repeat(2, fr);
+    grid-gap: 20px;
+  }
+
+  .ProjectBox {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    width: 90%;
+  }
+  
+  .ProjectBox img {
+    max-width: 100%;
+  }
+  
+  .ProjectBox h3 {
+    margin-top: 10px;
+  }
+  
+  .ProjectBox p {
+    margin-top: 10px;
   }
