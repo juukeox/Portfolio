@@ -9,7 +9,7 @@ const App = () => {
     {
       title: "Fantasy Football Front End",
       imageSrc: "/homepage.png",
-      description: "Initiate the scraping, choose your football preferences, and see your final results, in this slick front end.",
+      description: "Initiate the scraping, choose your football preferences, and see your final results all in this slick front end.",
     },
     {
       title: "Fantasy Football Back End",

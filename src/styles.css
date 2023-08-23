@@ -127,25 +127,30 @@ body, h1, h2, p {
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 20px;
-    text-align: center;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column; /* Change to column layout */
     align-items: center;
+    justify-content: space-between; /* Evenly distribute content vertically */
     margin: 10px;
     width: 70%;
     margin: 0 auto;
     margin-bottom: 20px;
+    box-shadow: 0 12px 6px rgba(0, 0, 0, 0.1);
   }
-  
   .ProjectBox img {
     max-width: 100%;
   }
   
   .ProjectBox h3 {
     margin-top: 10px;
+    font-size: 1.5rem;
+    color: #333;
   }
   
   .ProjectBox p {
     margin-top: 10px;
+    font-size: 1.8rem;
+    color: #666;
   }
 
 
