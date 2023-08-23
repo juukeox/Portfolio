@@ -170,28 +170,35 @@ body, h1, h2, p {
   gap: 20px;
 }
 
-.Skill {
-  background-color: rgba(255, 255, 255, 0.9);
+.Skill, .Skill1 {
   border-radius: 10px;
   padding: 20px;
   width: 300px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.Skill i {
   font-size: 2rem;
   color: #007bff;
-}
-
-.Skill h3 {
   font-size: 1.3rem;
   margin-top: 10px;
-}
-
-.Skill p {
   color: #666;
 }
 
+.Skill {
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 223, 0, 0.9) 0%,
+    rgba(255, 223, 0, 0.6) 50%,
+    rgba(255, 223, 0, 0.3) 100%
+  );
+}
+
+.Skill1 {
+  background: radial-gradient(
+    ellipse at center,
+    rgba(192, 192, 192, 0.9) 0%,
+    rgba(192, 192, 192, 0.6) 50%,
+    rgba(192, 192, 192, 0.3) 100%
+  );
+}
 
 .SkillsInnerContainer {
   background-color: #fff;
@@ -216,31 +223,23 @@ body, h1, h2, p {
 
 .SkillsColumn {
   flex: 1;
+  position: relative;
 }
 
-.SkillsList {
-  display: flex;
+.ProficientGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   flex-direction: column;
   gap: 20px;
 }
 
-.Skill {
-  background-color: rgba(255, 255, 255, 0.9);
-  border-radius: 10px;
-  padding: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.FamiliarGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-direction: column;
+  gap: 20px;
 }
 
-.Skill i {
-  font-size: 2rem;
-  color: #007bff;
-}
-
-.Skill h3 {
-  font-size: 1.3rem;
-  margin-top: 10px;
-}
-
-.Skill p {
-  color: #666;
+.SkillsColumn:first-child {
+  border-right: 3px solid #ccc; /* Add this to the last column */
 }

@@ -70,7 +70,7 @@ const App = () => {
     <div className="SkillsColumns">
       <div className="SkillsColumn">
         <h4>Proficient</h4>
-        <div className="SkillsGrid">
+        <div className="ProficientGrid">
           <div className="Skill">
             <i className="fas fa-code"></i>
             <h3>Python</h3>
@@ -90,18 +90,18 @@ const App = () => {
       </div>
       <div className="SkillsColumn">
         <h4>Familiar</h4>
-        <div className="SkillsGrid">
-          <div className="Skill">
+        <div className="FamiliarGrid">
+          <div className="Skill1">
             <i className="fab fa-html5"></i>
             <h3>HTML</h3>
             <p>Building the foundation of the web</p>
           </div>
-          <div className="Skill">
+          <div className="Skill1">
             <i className="fab fa-java"></i>
             <h3>Java</h3>
             <p>Bringing the coffee to your code</p>
           </div>
-          <div className="Skill">
+          <div className="Skill1">
             <i className="fab fa-css3-alt"></i>
             <h3>CSS</h3>
             <p>Designing stunning web styles</p>
