@@ -7,19 +7,24 @@ import ProjectBox from "./ProjectBox";
 const App = () => {
   const projects = [
     {
-      title: "Fantasy Footy Pt.1",
+      title: "Fantasy Football Front End",
       imageSrc: "/homepage.png",
-      description: "Description of Project 1...",
+      description: "Initiate the scraping, choose your football preferences, and see your final results, in this slick front end.",
     },
     {
-      title: "Fantasy Footy Pt.2",
+      title: "Fantasy Football Back End",
       imageSrc: "/scraping.png",
-      description: "Description of Project 2...",
+      description: "The flask app takes on sophisticated scraping, and processes your inputs via a complex algorithm to generate normalised scores for recommended players.",
     },
     {
-      title: "Fantasy Footy Pt.3",
-      imageSrc: "/dashboard.png",
-      description: "Description of Project 3...",
+      title: "Sudoku Game",
+      imageSrc: "/sudoku.png",
+      description: "Load up a new board each time you open and see how fast you can beat the board!",
+    },
+    {
+      title: "Hangman Game",
+      imageSrc: "/hangman.png",
+      description: "Choose your difficulty and take on the dictionary before you run out of lives!",
     },
     // Add more projects as needed
   ];
@@ -66,7 +71,6 @@ const App = () => {
       <section className="ProjectsContainer" id="skills">
   <h2 className="SectionTitle">Skills</h2>
   <div className="SkillsInnerContainer">
-    <h3 className="SkillsSubtitle">Master of Code, Wielder of Knowledge</h3>
     <div className="SkillsColumns">
       <div className="SkillsColumn">
         <h4>Proficient</h4>
@@ -121,6 +125,10 @@ const App = () => {
             <strong>malachikakembo@gmail.com</strong>
             </a>
           </p> 
+          <br></br>
+          <p>
+            CV available upon request.
+          </p>
         </div>
         <div className="SocialLinks">
           <a href="https://github.com/juukeox" target="_blank" rel="noopener noreferrer">
