@@ -1,0 +1,98 @@
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* General styling */
+  body {
+    background: linear-gradient(135deg, #00b09b, #96c93d);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  
+  .App {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  .Header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .TitleBox {
+    padding: 20px;
+  }
+  
+  .Name {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+  
+  .Tagline {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  /* Navigation */
+  .Navigation {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .NavList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .NavItem {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .NavLink {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .NavLink:hover {
+    color: #007bff;
+  }
+  
+  /* Section Titles */
+  .SectionTitle {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  .Footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+  }
+  
+  .ContactInfo {
+    margin-bottom: 20px;
+  }
+
+  .ContactInfo strong {
+    font-weight: bold;
+    color: #000000; /* Change the color if needed */
+  }
+  
+  .SocialLinks {
+    /* Style  social media links or other links */
+  }
