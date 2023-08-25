@@ -33,7 +33,7 @@ const App = () => {
     },
     {
       title: "Helpful To-do List",
-      imageSrc: "/Todolist.png",
+      imageSrc: "/TodoList.png",
       description: "Add and complete tasks to keep track of your day. Remembers your tasks even after you close!",
       link: "https://github.com/juukeox/TodoList",
     }
