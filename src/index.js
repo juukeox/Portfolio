@@ -1,3 +1,4 @@
+
 import React from "react";
 import ReactDOM from "react-dom";
 import '@fortawesome/fontawesome-free/css/all.css';
@@ -30,6 +31,12 @@ const App = () => {
       description: "Choose your difficulty and take on the dictionary before you run out of lives!",
       link: "https://github.com/juukeox/Hangman-game",
     },
+    {
+      title: "Helpful To-do List",
+      imageSrc: "/Todolist.png",
+      description: "Add and complete tasks to keep track of your day. Remembers your tasks even after you close!",
+      link: "https://github.com/juukeox/TodoList",
+    }
   ];
   return (
     <div className="App">
