@@ -42,7 +42,7 @@ const App = () => {
     <div className="App">
       <header className="Header">
         <div className="TitleBox">
-          <h1 className="Name">Brendan Jones</h1>
+          <h1 className="Name">John Wilson</h1>
           <p className="Tagline">Software Developer | Code Enthusiast</p>
         </div>
       </header>
