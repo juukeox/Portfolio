@@ -162,3 +162,6 @@ const App = () => {
 };
 
 ReactDOM.render(<App />, document.getElementById("root"));
+
+
+// Align header properly, make skills expand to correct size
