@@ -20,6 +20,12 @@ const App = () => {
       link: "https://github.com/juukeox/FantasyFooty",
     },
     {
+      title: "Maths revision tool",
+      imageSrc:  "/quiz.png" ,
+      description: "Improve your mental arithemtic and try to beat your high score",
+      link: "https://github.com/juukeox/MathsQuiz",
+    },
+    {
       title: "Sudoku Game",
       imageSrc: "/sudoku.png",
       description: "Load up a new board each time you open and see how fast you can win!",
@@ -43,7 +49,7 @@ const App = () => {
       <header className="Header">
         <div className="TitleBox">
           <h1 className="Name">John Wilson</h1>
-          <p className="Tagline">Software Developer | Code Enthusiast</p>
+          <p className="Tagline">Software Developer</p>
         </div>
       </header>
       <nav className="Navigation">
